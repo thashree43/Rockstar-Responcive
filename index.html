@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rockstar Games</title>
+<!------------------------------ title part icon ---------------------------------------------------->
+  <link rel="icon" type="image/x-icon" href="images/icon rockstar.png">
+
+<!---------------------------------------------------------------------------------------------------->
+  <!-----------links------------>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<!------------------------------------------------------------------------------------------------------>
+</head>
+
+<body>
+<!-------------------------------- nav-bar started ----------------------------------------->
+  <div class="nav-bar">
+    <div class="side-barnav-">
+      <img src="images/sidebar.png" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+        aria-controls="offcanvasWithBothOptions" style="height: 30px;"></img>
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel" style="background-color: black;">
+
+        <div class="offcanvas-body">
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+
+          <div class="offcanvas-header">
+            <form action="#" class="search-bar mt-5" id="search-form">
+              <img src="images/newicon.svg" style="height: 30px;">
+              <input type="text" name="search" placeholder="Search games"
+                style="background-color: transparent; border: 0px;">
+            </form>
+
+          </div>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <h2 class="hamberger mt-5">Newswire</h2><br>
+            </li>
+            <li class="nav-item">
+              <h2 class="hamberger">Games</h2><br>
+            </li>
+            <li class="nav-item">
+              <h2 class="hamberger">Videos</h2><br>
+            </li>
+            <li class="nav-item">
+              <h2 class="hamberger">Downloads</h2><br>
+            </li>
+            <li class="nav-item">
+              <h2 class="hamberger">Support <img
+                  src="https://media-rockstargames-com.akamaized.net/mfe5/__common/img/bec977f64161454c1120.svg"
+                  alt="Icon" class="icon-after-text"></h2><br>
+            </li>
+            <li class="nav-item">
+              <h2 class="hamberger">Social Club <img
+                  src="https://media-rockstargames-com.akamaized.net/mfe5/__common/img/bec977f64161454c1120.svg"
+                  alt="Icon" class="icon-after-text"></h2><br>
+            </li>
+            <li class="nav-item">
+              <h2 class="hamberger">Launcher <img
+                  src="https://media-rockstargames-com.akamaized.net/mfe5/__common/img/bec977f64161454c1120.svg"
+                  alt="Icon" class="icon-after-text"></h2><br>
+            </li>
+            <li class="nav-item">
+              <h2 class="hamberger mb-5">Store <img
+                  src="https://media-rockstargames-com.akamaized.net/mfe5/__common/img/bec977f64161454c1120.svg"
+                  alt="Icon" class="icon-after-text"></h2>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!------navbar cnetre part ROckstar logo--------->
+    <div class="rockstar-logo">
+      <img src="images/logo.svg" style="height: 30px;">
+    </div>
+    <div class="sign-in">
+      <img id="nav-right-icon" src="images/sign in icon.svg" alt="Right Arrow Icon" onclick="toggleDropdown()">
+      <div id="dropdown-content" class="dropdown-content">
+          <!-- Dropdown Buttons -->
+          <button class="dropdown-button" onclick="signIn()">Sign In &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://media-rockstargames-com.akamaized.net/mfe5/__common/img/bec977f64161454c1120.svg"
+               alt="Icon" class="icon-after-text"></button>
+          <button class="dropdown-button" onclick="joinClub()">Join Social Club  
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="https://media-rockstargames-com.akamaized.net/mfe5/__common/img/bec977f64161454c1120.svg" alt="Icon" class="icon-after-text">
+          </button>
+      </div>
+    </div>
+  </div>
+  <!----------------------------------------- nav bar ended ------------------------------------------->
+  <!---------------------------------------- main section started ------------------------------------->
+
+  <section class="section-1">
+    <div class="container-fluid">
+      <div class="row  d-flex align-items-center justify-content-center">
+        <div class="col-12 col-lg-8 ">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/rockstar img-1.avif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/rockstar img-2.avif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/rockstar img-3avif.avif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/rockstar img-4.avif" class="d-block w-100" alt="...">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 p-5">
+          <div class="content-mainsec">
+            <p>Grand Theft Auto online</p>
+            <h1>Now on Nintendo Switch and PS4</h1>
+            <div class="d-grid gap-2 pt-2">
+              <button class="btn watch-me-btn" type="button">WATCH NOW</button>
+              <div class="carousel-button">
+                <img src="images/dash-grey.png" type="button" data- bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <img src="images/dash-grey.png" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <img src="images/dash-grey.png" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <img src="images/dash-grey.png" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!----------------------------------------main-section ended--------------------------------------------------------->
+
+  <!---------------------------------------Second Section started------------------------------------------------------->
+  <section id="section-2">
+  <div class="container-fluid   pt-5 mt-5">
+
+    <div class="text ms-5 mb-4 text-white">
+      <h1>Newswire</h1>
+    </div>
+
+    <div class="row ms-3">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+        <div class="card border-dark" style="max-width: 90%;">
+          <img src="images/second-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-white">
+            <h5 class="card-title">GTA online</h5>
+            <h6> September 14,2023</h6>
+            <p class="card-text">Get the New Bravado Hotring Hellfire and More with GTA+</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card border-dark" style="max-width: 90%;">
+          <img src="images/second-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-white">
+            <h5 class="card-title">GTA online </h5>
+            <h6> September 14,2023</h6>
+            <p class="card-text">Get the New Bravado Hotring Hellfire and More with GTA+</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card border-dark" style="max-width: 90%;">
+          <img src="images/second-3.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-white">
+            <h5 class="card-title">GTA online</h5>
+            <h6> September 14,2023</h6>
+            <p class="card-text">Get the New Bravado Hotring Hellfire and More with GTA+</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card border-dark" style="max-width: 90%;">
+          <img src="images/second-4.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-white">
+            <h5 class="card-title">GTA online</h5>
+            <h6> September 14,2023</h6>
+            <p class="card-text">Get the New Bravado Hotring Hellfire and More with GTA+</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card border-dark" style="max-width: 90%;">
+          <img src="images/second-5.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-white">
+            <h5 class="card-title">GTA online</h5>
+            <h6> September 14,2023</h6>
+            <p class="card-text">Get the New Bravado Hotring Hellfire and More with GTA+</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card border-dark" style="max-width: 90%;">
+          <img src="images/second-6.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-white">
+            <h5 class="card-title">GTA online</h5>
+            <h6> September 14,2023</h6>
+            <p class="card-text">Get the New Bravado Hotring Hellfire and More with GTA+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="view-btn d-flex justify-content-center align-items-center">
+      <button type="button" class="btn mt-5 view">View More</button>
+    </div>
+  </div>
+</section>
+
+  <!---------------------------------------Second Section ended---------------------------------------->
+  <!---------------------------------------Third Section started---------------------------------------->
+  <div class="container-fluid  pt-5 mt-5 ">
+    <div class="text ms-5 mb-4 text-white">
+      <h1>Featured Games</h1>
+    </div>
+    <div class="row ms-5 me-5">
+      <div class="col-lg-3 col-md-6 col-6 ">
+        <img src="images/Feature-1.jpg" class="card-img-top" alt="Feature-1">
+          
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <img src="images/Feature-2.jpg" class="card-img-top" alt="Feature-2">
+
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <img src="images/Feature-3.jpg" class="card-img-top" alt="Feature-3">
+
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <img src="images/Feature-4.jpg" class="card-img-top" alt="Feature-4">
+
+      </div>
+    </div>
+
+    <div class="view-btn  d-flex justify-content-center align-items-center">
+      <button type="button" class="btn  mt-5 view ">View More</button>
+    </div>
+  
+  </div>
+  <!-----------------------------------------Third Section Ended----------------------------->
+  <!-----------------------------------Footer-section Started--------------------------------->
+  <footer class="footer pt-4 mt-5 mb-5 ms-5 me-5">
+    <div class="container-fluid">
+        <div class="row mb-5">
+            <!--------------Footer Links------------------>
+            <div class="col-md-6">
+                <ul
+                    class="footer-links d-flex flex-column flex-sm-row list-unstyled list-sm-inline justify-content-start">
+                    <a class="rklink" href="https://www.rockstargames.com/contact">
+                    <li class="links mb-2 mb-sm-0 mr-sm-3">Contact</li></a>
+                    <a class="rklink" href="https://www.rockstargames.com/careers">
+                    <li class="links mb-2 mb-sm-0 mr-sm-3">Career 
+                        <img src="https://media-rockstargames-com.akamaized.net/mfe5/__common/img/bec977f64161454c1120.svg"
+                         alt="Icon" class="icon-after-text"></li></a>
+                        <a class="rklink" href="https://signin.rockstargames.com/signin/user-form?cid=socialclub">
+                        <li class="links">Subscribe <img src="https://media-rockstargames-com.akamaized.net/mfe5/__common/img/bec977f64161454c1120.svg" 
+                        alt="Icon"
+                         class="icon-after-text"></li></a>
+                </ul>
+            </div>
+
+            <div class="col-md-6 text-md-right d-flex flex-column justify-content-start align-items-sm-end">
+              <div class="btn-group dropup">
+                <button type="btn" class="btn btn-secondary dropdown-toggle ml-auto links mb-2 mb-md-0 text-white bg-transparent" data-bs-toggle="dropdown" > 
+                
+                  <img src="images/globe.svg">&nbsp;&nbsp;English&nbsp;&nbsp; 
+             
+               </button>
+               <div class="drop-2">
+                <ul class="dropdown-menu bg-black text-white mb-1 ">
+                 <li>English</li>
+                 <li>Deutsch</li>
+                 <li>Francais</li>
+                 <li>Italiano</li>
+                 <li>Espaniol(Espana)</li>
+                 <li>Espanol(Mexico)</li>
+                 <li>Portugese</li>
+                </ul>
+              </div>
+              </div>   
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-4">
+        <div class="row ">
+            <div class="col-md-6">
+                <ul class="footer-links d-flex justify-content-start links-2 align-items-sm-center flex-column flex-sm-row">
+                    <a class="rklink" href="https://www.rockstargames.com/corpinfo">
+                    <li class="footer-2-line-link">Corporate</li></a>
+                    <a class="rklink" href="https://www.rockstargames.com/privacy">
+                    <li class="footer-2-line-link">Privacy</li></a>
+                    <a class="rklink" href="#"></a>
+                    <li class="footer-2-line-link">Cookie Settings</li></a>
+                    <a class="rklink" href="https://www.rockstargames.com/cookies"></a>
+                    <li class="footer-2-line-link">Cookie Policy</li></a>
+                    <a class="rklink" href="https://www.rockstargames.com/legal"></a>
+                    <li class="footer-2-line-link">Legal</li></a>
+                    <a class="rklink" href="https://www.rockstargames.com/ccpa"></a>
+                    <li class="footer-2-line-link">Do Not Sell My Personal Information</li></a>
+                </ul>
+            </div>
+            <div
+                class="col-md-6 text-md-right d-flex justify-content-center justify-content-sm-end align-items-center">
+                <a href="https://www.twitch.tv/rockstargames" ><img class="footer-icons mx-2 my-2 my-sm-0" src="images/MSGICON.svg" alt="firsticon"></a>
+                <a href="https://www.instagram.com/rockstargames/"><img class="footer-icons mx-2 my-2 my-sm-0" src="images/instagram.svg" alt="" ></a>
+                <a href="https://twitter.com/rockstargames"><img class="footer-icons mx-2 my-2 my-sm-0" src="images/twitter.svg" alt=""></a>
+                <a href="https://www.youtube.com/rockstargames"><img class="footer-icons mx-2 my-2 my-sm-0" src="images/youtube.svg" alt=""></a>
+                <a href="https://www.facebook.com/rockstargames"><img class="footer-icons mx-2 my-2 my-sm-0" src="images/facebook.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 mt-4 pt-4 pb-4 last-line">
+        <div class="container-fluid d-flex justify-content-between">
+          
+            <div class="mr-auto  H">Rockstar Games</div>
+            <div class="d-flex justify-content-center">
+                <div class="mx-2 H">New York</div>
+                <div class="mx-2 H">London</div>
+                <div class="mx-2 H">Paris</div>
+                <div class="H">Bogotá</div>
+            </div>
+            <div class="ml-auto H">MCMXCVIII</div>
+        </div>
+    </div>
+</footer>
+ <!------------------------------------------------Footer section end------------------------------------------->
+ <!-----------------java script link-------------->
+ <script src="java.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <!---------------------------------------------->
+</body>
+
+</html>
